@@ -103,13 +103,9 @@ Client (client.py)
             client.sendall(message)  
 
 
-YouTube Demo  https://img.shields.io/badge/YouTube-Demo-red?style=plastic&logo=youtube&url=[https://youtu.be/hlCiOwl9R5Y ]
-
-Watch the project in action here: https://youtu.be/hlCiOwl9R5Y 
-
-https://img.shields.io/badge/YouTube-Demo-red?style=plastic&logo=youtube&url=[https://youtu.be/hlCiOwl9R5Y ]
-
-
+## YouTube Demo  
+Watch the project in action:  
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red?style=plastic&logo=youtube&url=https%3A%2F%2Fyoutu.be%2FhlCiOwl9R5Y)](https://youtu.be/hlCiOwl9R5Y)  
 
 Screenshots:
 
