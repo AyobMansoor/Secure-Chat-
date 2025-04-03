@@ -7,10 +7,12 @@ This project implements a secure chat application using hybrid encryption:
 Asymmetric Encryption (RSA-2048) : For secure key exchange.
 Symmetric Encryption (AES-256/ChaCha20) : For fast message encryption.
 Digital Signatures (RSA-SHA256) : To ensure message integrity and authenticity.
+
 The application includes:
 
 A Kivy-based GUI for user interaction.
 A TCP-based server to manage client connections and message relaying.
+
 Features
 🔒 End-to-End Encryption :
 Messages are encrypted client-side before transmission.
@@ -23,7 +25,7 @@ Each message is signed to ensure it’s unaltered and from the correct sender.
 📱 Cross-Platform GUI :
 Built with Kivy for a user-friendly interface.
 🛠️ Real-Time Updates :
-Online users list and message history updates dynamically. 
+Online users list and message history updates dynamically.
 
 
 Dependencies
@@ -101,8 +103,10 @@ Client (client.py)
             client.sendall(message)  
 
 
-YouTube Demo
+YouTube Demo [text][def]
 Watch the project in action here: https://youtu.be/hlCiOwl9R5Y 
+
+
 
 
 Screenshots:
@@ -111,5 +115,6 @@ Screenshots:
 
 ![alt text](image-2.png)
 
+[def]: https://img.shields.io/badge/YouTube-Demo-red?download=true
 
 
