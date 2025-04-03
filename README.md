@@ -103,9 +103,11 @@ Client (client.py)
             client.sendall(message)  
 
 
-YouTube Demo [text][def]
+YouTube Demo  https://img.shields.io/badge/YouTube-Demo-red?style=plastic&logo=youtube&url=[https://youtu.be/hlCiOwl9R5Y ]
+
 Watch the project in action here: https://youtu.be/hlCiOwl9R5Y 
 
+https://img.shields.io/badge/YouTube-Demo-red?style=plastic&logo=youtube&url=[https://youtu.be/hlCiOwl9R5Y ]
 
 
 
@@ -114,7 +116,5 @@ Screenshots:
 ![alt text](image-1.png) 
 
 ![alt text](image-2.png)
-
-[def]: https://img.shields.io/badge/YouTube-Demo-red?download=true
 
 
