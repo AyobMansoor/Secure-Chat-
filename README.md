@@ -48,24 +48,62 @@ rsa:
 RSA key generation and signing.
 
 
-Usage
-1. Run the Server
-    1.Open server.py and update HOST to your local/external IP.
-    1.Start the server.
 
-    python server.py  
 
-2. Run the Client
-    1.Ensure the server is running.
-    2.Start the client: 
+## Usage
 
-    python client.py  
+### 1. Run the Server
 
-    3.Enter a unique username and choose encryption method (AES/ChaCha20).
+1. Open `server.py` and update `HOST` to your local/external IP.
+2. Start the server:
 
-3. Test the Chat
-    1.Send messages between clients.
-    2.Observe encryption in action via the UI.
+   ```bash
+   python server.py
+   ```
+
+### 2. Run the Client
+
+1. Ensure the server is running.
+2. Start the client:
+
+   ```bash
+   python client.py
+   ```
+
+3. Enter a **unique username** and choose an encryption method (AES/ChaCha20).
+
+### 3. Test the Chat
+
+- Send messages between clients.
+- Observe encryption in action via the UI.
+
+## Features
+
+- **End-to-End Encryption**: Uses AES and ChaCha20 for message encryption.
+- **RSA Key Exchange**: Ensures secure communication.
+- **Secure Login**: Unique username-based authentication.
+- **Cross-Platform Compatibility**: Works on Windows and Linux.
+
+## Requirements
+
+- Python 3.13.1
+- Required libraries (install using pip):
+  
+  ```bash
+  pip install pycryptodome kivy
+  ```
+
+## Notes
+
+- The server should be running before any client connects.
+- Clients must use unique usernames to avoid conflicts.
+- Encryption ensures secure communication, but users should still follow general security practices.
+
+
+
+
+
+
 
 
 Code Structure
